@@ -66,11 +66,11 @@ Elbow Method:
 - Look for the "elbow point" in the plot where the rate of decrease in inertia slows down significantly.
 - Choose the k value at the elbow point as the optimal number of clusters.
 
-The results are plotted with heuristic lab:
+The results of multiple runs _(statistic relevance)_ are plotted with heuristic lab:
 
-![elbow_cluster](./assets/elbow_cluster.png)
+![Bild](./assets/Bild.png)
 
-We choose a cluster size of 8.
+We choose a cluster size of 7.
 
 
 
