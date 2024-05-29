@@ -82,6 +82,43 @@ Now we can take a look if the clusters are similar to the beer types.
 
 
 
+## Cluster analyze
+
+To calculate the percentage of beer types that are in the same cluster, we can follow these steps:
+
+1. For each cluster, we count the number of beers per beer type.
+2. We determine the most common beer type in each cluster.
+3. We sum the number of beers of the most common type across all clusters and divide it by the total number of beers.
+
+Here is the calculation for each cluster:
+
+Cluster 1:
+1 Brut (100%)
+
+Cluster 2:
+7 Kriek, 4 Lambic, 4 West Flanders ale, 3 Flanders old brown, 2 Faro, 1 Fruitbeer (33% Kriek)
+
+Cluster 3:
+4 Hoppy, 1 Saison, 1 Blond, 1 Strong ale (57% Hoppy)
+
+Cluster 4:
+6 Fruitbeer, 4 Kriek, 3 Lambic, 2 Christmas, 2 West Flanders ale, 2 Scotch, 1 Low/No alcohol, 1 Wheat, 1 Saison, 1 Faro, 1 Stout/Porter, 1 Brown, 1 Strong ale, 1 Brut, 1 Blond, 1 Tripel (23% Fruitbeer)
+
+Cluster 5:
+13 Blond, 10 Tripel, 8 Hoppy, 6 Strong ale, 5 Saison, 5 Stout/Porter, 4 Brown, 3 Brett/cofermented, 3 Amber, 2 Wheat, 1 Flanders old brown, 1 Brut, 1 Pils/Lager, 1 Christmas (21% Blond)
+
+Cluster 6:
+10 Strong ale, 4 Stout/Porter, 3 Christmas, 2 Hoppy, 2 Scotch, 2 Brown, 2 Tripel, 1 Dubbel, 1 Amber, 1 Brut (36% Strong ale)
+
+Cluster 7:
+19 Blond, 15 Tripel, 8 Amber, 8 Wheat, 6 Pils/Lager, 6 Low/No alcohol, 6 Dubbel, 4 Brown, 2 Stout/Porter, 2 Christmas, 1 West Flanders ale, 1 Saison (21% Blond)
+
+In total, 84 out of 250 beers (34%) are of the most common type in their respective cluster.
+
+The calculation shows that the same beer types tend to be in different clusters. Only about one-third of the beers are of the most common type in their cluster. The clustering does not seem to strongly correlate with the beer types.
+
+
+
 ## Questions
 
 Interesting questions which arose during the study:
