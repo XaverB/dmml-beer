@@ -123,7 +123,7 @@ The calculation shows that the same beer types tend to be in different clusters.
 
 ![cluster_plot_stackbar](./assets/cluster_plot_stackbar.png)
 
-
+![output](./assets/output.png)
 
 
 
@@ -154,3 +154,7 @@ It's important to note that while these observations suggest correlations, furth
 Interesting questions which arose during the study:
 
 - Does clustering by aroma correlate to the type of beer (like pale ale etc.?
+
+  - In total, 84 out of 250 beers (34%) are of the most common type in their respective cluster.
+
+    The calculation shows that the same beer types tend to be in different clusters. Only about one-third of the beers are of the most common type in their cluster. The clustering does not seem to strongly correlate with the beer types.
