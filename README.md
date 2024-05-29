@@ -119,6 +119,36 @@ The calculation shows that the same beer types tend to be in different clusters.
 
 
 
+![cluster_plot](./assets/cluster_plot.png)
+
+![cluster_plot_stackbar](./assets/cluster_plot_stackbar.png)
+
+
+
+
+
+To analyze the correlations between beer types and clusters, I'll look at the distribution of beer types within each cluster and identify any notable patterns or relationships.
+
+1. Cluster 1 consists entirely of Brut beers, suggesting a strong correlation between the Brut beer type and this cluster.
+
+2. Cluster 2 is dominated by Kriek, Lambic, West Flanders ale, and Flanders old brown beers. These beer types are related to Belgian sour ales, indicating a correlation between this cluster and sour or funky beer styles.
+
+3. Cluster 3 has a majority of Hoppy beers, with a few other types mixed in. This suggests a moderate correlation between hoppy beers and this cluster.
+
+4. Cluster 4 is quite diverse, with Fruitbeer being the most common type, followed by Kriek and Lambic. The presence of fruit-related and sour beer types hints at a possible correlation, but the variety of other beer types makes the relationship less clear.
+
+5. Cluster 5 has a strong representation of Blond, Tripel, Hoppy, and Strong ale beers. This cluster seems to be associated with Belgian-style ales and hoppy beers, indicating a correlation between these beer types and the cluster.
+
+6. Cluster 6 is primarily composed of Strong ales, with a mix of other beer types like Stout/Porter, Christmas, and Hoppy beers. The dominance of Strong ales suggests a correlation, but the presence of various other types makes the relationship less pronounced.
+
+7. Cluster 7 has a high number of Blond and Tripel beers, followed by Amber, Wheat, and Pils/Lager. This cluster appears to be correlated with Belgian-style ales, particularly Blond and Tripel, as well as a variety of other beer types.
+
+Overall, some clusters show strong correlations with specific beer types, such as Cluster 1 with Brut and Cluster 2 with sour/funky beers. Other clusters, like Cluster 5 and Cluster 7, have a mix of beer types but still exhibit correlations with certain styles, such as Belgian ales. Clusters 4 and 6 have a more diverse range of beer types, making the correlations less apparent.
+
+It's important to note that while these observations suggest correlations, further statistical analysis would be needed to quantify the strength and significance of these relationships. Additionally, exploring the underlying factors that contribute to the clustering, such as flavor profiles or brewing techniques, could provide deeper insights into the observed correlations.
+
+
+
 ## Questions
 
 Interesting questions which arose during the study:
