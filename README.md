@@ -8,29 +8,49 @@ Our starting task is to build a beer recommendation engine. We want to cluster t
 
 ## Aroma attributes
 
-In the provided list of attributes, the following attributes are related to aroma:
+After analyzing the data set 7 and reading the paper, we will use following attributes to categorize beers by their taste. We removed all cumulated attributes.
 
-1. A_malt_all: Overall malt aroma
-2. A_malt_grain: Grainy malt aroma
-3. A_malt_bread: Bready malt aroma
-4. A_malt_cara: Caramel malt aroma
-5. A_malt_burn: Burnt malt aroma
-6. A_hops_all: Overall hops aroma
-7. A_hops_citrus: Citrusy hops aroma
-8. A_hops_tropical: Tropical hops aroma
-9. A_hops_noble: Noble hops aroma
-10. A_hops_woody: Woody hops aroma
-11. A_esters_all: Overall esters aroma
-12. A_esters_ethac: Ethyl acetate esters aroma
-13. A_esters_isoaa: Isoamyl acetate esters aroma
-14. A_esters_flower: Floral esters aroma
-15. A_esters_fruity: Fruity esters aroma
-
-These attributes starting with "A_" specifically describe the aroma characteristics of the beer, including malt, hops, and esters aromas.
-
-The attributes starting with "F_" (e.g., F_malt_all, F_hops_all, F_esters_all) likely represent the flavor or taste attributes of the beer, which are different from aroma.
-
-
+- A_malt_grain
+- A_malt_bread
+- A_malt_cara
+- A_malt_burn
+- A_hops_citrus
+- A_hops_tropical
+- A_hops_noble
+- A_hops_woody
+- A_esters_ethac
+- A_esters_isoaa
+- A_esters_flower
+- A_esters_fruity
+- F_malt_grain
+- F_malt_bread
+- F_malt_cara
+- F_malt_burn
+- F_hops_citrus
+- F_hops_tropical
+- F_hops_noble
+- F_hops_woody
+- F_esters_ethac
+- F_esters_isoaa
+- F_esters_flower
+- F_esters_fruity
+- acidity
+- bitternes
+- sweetness
+- X4vg
+- diacetyl
+- dms
+- metallic
+- stale_hops
+- t2n
+- orange
+- coriander
+- clove
+- lactic
+- acetic
+- barnyard
+- aftertaste
+- co2
 
 ## Clustering
 
@@ -53,6 +73,12 @@ The results are plotted with heuristic lab:
 We choose a cluster size of 8.
 
 
+
+## Creating our result
+
+The we preceded by creating a data set of the clustering result + beer_id + beer_type.
+
+Now we can take a look if the clusters are similar to the beer types.
 
 
 
