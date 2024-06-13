@@ -147,8 +147,6 @@ Overall, some clusters show strong correlations with specific beer types, such a
 
 It's important to note that while these observations suggest correlations, further statistical analysis would be needed to quantify the strength and significance of these relationships. Additionally, exploring the underlying factors that contribute to the clustering, such as flavor profiles or brewing techniques, could provide deeper insights into the observed correlations.
 
-
-
 ## Questions
 
 Interesting questions which arose during the study:
@@ -158,3 +156,64 @@ Interesting questions which arose during the study:
   - In total, 84 out of 250 beers (34%) are of the most common type in their respective cluster.
 
     The calculation shows that the same beer types tend to be in different clusters. Only about one-third of the beers are of the most common type in their cluster. The clustering does not seem to strongly correlate with the beer types.
+
+---
+
+Today (12.06.24): 
+
+Task: Generate beer which will be in specified cluster.
+
+or
+
+Find 3 most important features per cluster (clustered by aroma attributes).
+
+Which features are most important so the beer is put in specific cluster.
+
+Subquestion (recommended by Affenzeller):
+
+**Which subset of input variable should be taken so beer type and cluster match.**
+
+**Weight clusters to see if they match better.**
+
+---
+
+Notes:
+
+Unbalance data. For some beer types only 2 beers.
+
+Most important Variable: lactice
+
+"Lactic acid is a byproduct of the fermentation process in certain beer styles, particularly sour beers. It is produced by lactic acid bacteria, such as Lactobacillus and Pediococcus, which can be intentionally introduced during the brewing process or can occur naturally in certain brewing environments.
+
+The presence of lactic acid in beer contributes to a tart, tangy, or sour taste, which is a desirable characteristic in many sour beer styles. Some common beer styles that feature lactic acid include:
+
+1. Berliner Weisse: A low-alcohol, wheat-based German sour beer with a clean, lactic sourness.
+2. Gose: A German sour wheat beer brewed with salt and coriander, known for its lactic tartness and slightly salty profile.
+3. Lambic: A complex, spontaneously fermented Belgian sour beer that often exhibits a lactic acid character along with fruity and funky notes.
+4. Flanders Red Ale: A Belgian sour red ale with a balanced lactic sourness and fruity, malty flavors.
+5. American Wild Ale: A broad category of American sour beers that can showcase lactic acid along with other sour and funky characteristics.
+
+In some cases, lactic acid may also be present in non-sour beers due to unintentional bacterial contamination, which can lead to off-flavors and spoilage. However, when deliberately introduced and properly controlled, lactic acid is an essential component in creating the desired flavor profile of many sour beer styles."
+
+---
+
+Acetic acid is another type of acid that can be present in beer, often alongside lactic acid. While lactic acid is typically associated with a clean, tangy sourness, acetic acid contributes a sharper, vinegar-like acidity to beer.
+
+Acetic acid is produced by Acetobacter bacteria, which convert ethanol (alcohol) into acetic acid in the presence of oxygen. In most beer styles, the presence of acetic acid is considered a flaw or off-flavor, as it can impart an unpleasant vinegar-like taste and aroma. This is often the result of unintentional exposure to oxygen during the brewing or packaging process, leading to bacterial contamination.
+
+However, in certain sour beer styles, a small amount of acetic acid can be desirable, contributing to the beer's complex acidic profile. Some examples include:
+
+1. Flanders Red Ale: In addition to lactic sourness, Flanders Red Ales can have a subtle acetic character that adds depth to the beer's flavor profile.
+2. Lambic and Gueuze: These complex Belgian sour beers can display a balanced mix of lactic and acetic acids, along with fruity and funky notes from wild yeast and bacteria.
+3. American Wild Ale: Some American Wild Ales may showcase a small amount of acetic acid character as part of their overall sour and funky profile.
+
+It's important to note that while a slight acetic character can be acceptable or even desirable in certain sour beer styles, excessive amounts of acetic acid are generally considered a flaw. Brewers must carefully control the brewing process and prevent unwanted Acetobacter growth to maintain the desired balance of flavors in their beers.
+
+---
+
+we ran a feature analysis  and today we will investigate the data	
+
+aromen per beer type. which is the most important feature to be categorized as beer type X
+
+
+
